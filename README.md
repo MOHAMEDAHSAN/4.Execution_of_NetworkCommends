@@ -84,9 +84,6 @@ print(result,unans)
 <BR>
 <BR>
 <BR>
-<BR>
-<BR>
-<BR>
 
 ## OUTPUT :
 ### PING COMMAND 

@@ -1,6 +1,4 @@
 # EXP : 4 - Execution_of_NetworkCommands
-## NAME : S MOHAMED AHSAN
-## REG NO : 212223240089
 ## AIM :
 Use of Network commands in Real Time environment
 ## Software : 

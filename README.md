@@ -18,6 +18,7 @@ This commands includes
 • Other IP Commands e.g. show ip route etc.
 
 ## PROGRAM :
+### PING COMMAND -
 #### CLIENT 
 ```
 import socket
@@ -45,8 +46,19 @@ while True:
     print(s.recv(1024).decode())
 ```
 
+### TRACEROUTE COMMAND -
+```
+from scapy.all import* 
+target = ["www.google.com"] 
+result, unans = traceroute(target,maxttl=32) 
+print(result,unans)
+```
 ## OUTPUT :
+### PING COMMAND 
 ![image](https://github.com/MOHAMEDAHSAN/4.Execution_of_NetworkCommends/assets/139331378/7fe8c671-8f7b-49e0-9b41-8927e3d742df)
+
+### TRACEROUTE
+![318509371-ed1e8d7d-22d4-400f-b102-fefe2c182e45](https://github.com/MOHAMEDAHSAN/4.Execution_of_NetworkCommends/assets/139331378/e5cc5174-d202-474f-b271-a6c5266c3e68)
 
 ## Result :
 Thus Execution of Network commands Performed 
